@@ -1,0 +1,4 @@
+FROM wangqiru/ttrss:nightly
+# Database default settings
+# Some default settings
+ENV ENABLE_PLUGINS=auth_internal,fever
